@@ -8,7 +8,7 @@ import requests
 
 TARGET_OBJECT = "laptop"
 
-PHONE_NUMBER = "+917524917802"
+PHONE_NUMBER = "+917524hello"
 CONFIDENCE_THRESHOLD = 0.5 
 SEND_COOLDOWN = 60 
 
@@ -167,4 +167,5 @@ try:
 finally:
     print("Closing script...")
     cap.release()
+
     cv2.destroyAllWindows()
